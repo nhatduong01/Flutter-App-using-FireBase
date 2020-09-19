@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "362367415483",
+    "firebase_url": "https://brew-beverage.firebaseio.com",
+    "project_id": "brew-beverage",
+    "storage_bucket": "brew-beverage.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362367415483:android:40ad202e3f45253e14259e",
+        "android_client_info": {
+          "package_name": "com.nhatduong.brew_beverage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "362367415483-2ekb79of55tde0b3ri5ju1if0r5ks5c2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaEVaPDxkLnwI4dMenvjqLwUuQO1dBw6k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "362367415483-2ekb79of55tde0b3ri5ju1if0r5ks5c2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
