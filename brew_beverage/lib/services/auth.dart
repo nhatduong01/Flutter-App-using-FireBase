@@ -1,5 +1,6 @@
 import 'package:brew_beverage/models/user.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/cupertino.dart';
 
 class DichvuXacThuc {
   // We create an instance of FirebaseAuth so that we could sign in, sign out
@@ -33,6 +34,20 @@ class DichvuXacThuc {
 
   // Sign in with Email and password
   // Register with Email and password
+  Future dangNhapvoiEmailvaMatkhau(String email, String password) async
+  {
+    try
+    {
+      UserCredential ketqua = await _xacthuc.createUserWithEmailAndPassword(email: email, password: password);
+      User nguoidung = ketqua.user;
+      return _nguoidungfromUser(nguoidung);
+    }
+    catch(e)
+    {
+      print(e.toString());
+      return null;
+    }
+  }
   // Sign out method
   Future dangXuat() async {
     try {
